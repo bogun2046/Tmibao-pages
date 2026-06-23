@@ -1,4 +1,4 @@
-# Demibao GitHub Pages Site
+# Tmibao GitHub Pages Site
 
 This directory contains a minimal static release site for `脱密宝`.
 
@@ -23,7 +23,7 @@ docs/github-pages/
 
 Recommended steps:
 
-1. Create a new public repository such as `demibao-pages`.
+1. Create a new public repository such as `tmibao-pages`.
 2. Copy the contents of `docs/github-pages/` into the root of that repository.
 3. Push to the `main` branch.
 4. In GitHub repository settings, open `Pages`.
@@ -35,16 +35,16 @@ Recommended steps:
 
 Expected project-site URL:
 
-- `https://<owner>.github.io/demibao-pages/`
+- `https://<owner>.github.io/tmibao-pages/`
 
-If you want the shorter URL structure used in the planning document, rename the repository to `demibao`.
+If you want the shorter URL structure used in the planning document, rename the repository to `tmibao`.
 
 Expected URL structure:
 
-- Home: `https://<owner>.github.io/demibao/`
-- Privacy Policy: `https://<owner>.github.io/demibao/privacy/`
-- Support: `https://<owner>.github.io/demibao/support/`
-- FAQ: `https://<owner>.github.io/demibao/faq/`
+- Home: `https://<owner>.github.io/tmibao/`
+- Privacy Policy: `https://<owner>.github.io/tmibao/privacy/`
+- Support: `https://<owner>.github.io/tmibao/support/`
+- FAQ: `https://<owner>.github.io/tmibao/faq/`
 
 ### Option 2: Publish from the `docs/` directory of a public repository
 
