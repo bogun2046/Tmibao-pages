@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>脱密宝 FAQ</title>
+    <meta
+      name="description"
+      content="脱密宝常见问题：是否上传文件、是否覆盖原文件、是否需要登录、OCR PDF 是否可正式导出。"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-shell">
+        <div class="topbar">
+          <div class="brand">
+            <div class="brand-mark" aria-hidden="true">T</div>
+            <div class="brand-copy">
+              <strong>脱密宝</strong>
+              <span>FAQ</span>
+            </div>
+          </div>
+          <nav class="nav" aria-label="Primary">
+            <a href="../">Home</a>
+            <a href="../privacy/">Privacy Policy</a>
+            <a href="../support/">Support</a>
+            <a class="active" href="./">FAQ</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="content-area">
+      <div class="site-shell section-stack">
+        <section class="section-band">
+          <div class="eyebrow">FAQ</div>
+          <h1>常见问题</h1>
+          <p class="lead">
+            这里整理了当前版本最常见的审核问题和用户问题，内容与脱密宝 v0.4.6 的实际能力边界保持一致。
+          </p>
+        </section>
+
+        <section class="faq-list">
+          <article class="faq-item">
+            <div class="faq-question">脱密宝会上传我的文件吗？</div>
+            <div class="faq-answer">
+              不会。当前版本不会将用户文件上传到开发者服务器，文件处理在设备本地完成。
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <div class="faq-question">原文件会被覆盖吗？</div>
+            <div class="faq-answer">
+              不会。App 会生成脱敏副本，原文件保持不变。
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <div class="faq-question">是否需要账号登录？</div>
+            <div class="faq-answer">
+              当前版本不需要账号登录，也不包含登录流程。
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <div class="faq-question">OCR PDF 可以正式导出吗？</div>
+            <div class="faq-answer">
+              当前不可以。OCR PDF / 扫描型 PDF 当前仅作为草稿 / 实验能力展示，不开放正式导出。
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <div class="faq-question">脱敏结果是否一定 100% 准确？</div>
+            <div class="faq-answer">
+              不承诺 100% 准确。用户应结合实际场景自行复核脱敏结果。
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <div class="faq-question">当前正式支持哪些文件类型？</div>
+            <div class="faq-answer">
+              当前正式支持 TXT、DOCX 和文字层 PDF 的脱敏与导出。OCR PDF 当前不属于正式导出范围。
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <div class="faq-question">App 会做广告跟踪或分析吗？</div>
+            <div class="faq-answer">
+              当前版本不接入广告 SDK，不接入分析 SDK，也不进行跨 App / 跨网站追踪。
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="site-shell">
+        <div class="footer-card">
+          <p>Frequently asked questions for reviewers and users</p>
+          <p>
+            <a href="../">Home</a> ·
+            <a href="../privacy/">Privacy Policy</a> ·
+            <a href="../support/">Support</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
