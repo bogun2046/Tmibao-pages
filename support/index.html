@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Tmibao Support</title>
+    <title>脱密宝使用支持</title>
     <meta
       name="description"
-      content="脱密宝支持页：联系方式、功能范围、已知限制和隐私政策入口。"
+      content="脱密宝支持页：支持格式、使用流程、敏感信息识别范围、已知限制和联系方式。"
     />
     <link rel="stylesheet" href="../styles.css" />
   </head>
@@ -18,14 +18,14 @@
             <div class="brand-mark" aria-hidden="true">T</div>
             <div class="brand-copy">
               <strong>脱密宝</strong>
-              <span>Support</span>
+              <span>使用支持</span>
             </div>
           </div>
-          <nav class="nav" aria-label="Primary">
-            <a href="../">Home</a>
-            <a href="../privacy/">Privacy Policy</a>
-            <a class="active" href="./">Support</a>
-            <a href="../faq/">FAQ</a>
+          <nav class="nav" aria-label="主导航">
+            <a href="../">首页</a>
+            <a href="../privacy/">隐私政策</a>
+            <a class="active" href="./">支持</a>
+            <a href="../faq/">常见问题</a>
           </nav>
         </div>
       </div>
@@ -34,60 +34,97 @@
     <main class="content-area">
       <div class="site-shell section-stack">
         <section class="section-band">
-          <div class="eyebrow">Support</div>
-          <h1>脱密宝支持页</h1>
+          <div class="eyebrow">使用支持</div>
+          <h1>脱密宝使用支持</h1>
           <p class="lead">
-            脱密宝是一款本地文件脱敏工具，帮助用户在设备本地识别和处理文件中的常见敏感信息，并生成脱敏副本用于复核和导出。
+            脱密宝是一款专注于本地处理的文件与图片脱密工具。所有 OCR 识别和脱密处理均在设备本地完成，结果可正式导出和分享。
           </p>
         </section>
 
         <section class="card-grid">
           <article class="content-card">
-            <h3>正式支持</h3>
+            <h3>支持的文件与图片</h3>
             <div class="pill-row">
-              <span class="pill">TXT</span>
+              <span class="pill">PDF</span>
               <span class="pill">DOCX</span>
-              <span class="pill">文字层 PDF</span>
+              <span class="pill">TXT</span>
+              <span class="pill">JPG</span>
+              <span class="pill">PNG</span>
+              <span class="pill">HEIC</span>
             </div>
-            <p>以上格式支持正式脱敏与导出。</p>
+            <p>以上格式支持脱密处理、导出与分享。</p>
           </article>
           <article class="content-card">
-            <h3>草稿能力</h3>
+            <h3>复核与手动补充</h3>
             <div class="pill-row">
-              <span class="pill">OCR PDF Experimental</span>
+              <span class="pill">OCR 识别</span>
+              <span class="pill">人工复核</span>
+              <span class="pill">手动框选</span>
             </div>
-            <p>当前仅为草稿 / 实验能力展示，不开放正式导出。</p>
+            <p>OCR 识别结果建议人工复核；如有遗漏，可通过手动框选补充脱密范围。</p>
           </article>
+        </section>
+
+        <section class="content-card">
+          <h2>完整使用流程</h2>
+          <div class="pill-row">
+            <span class="pill">导入</span>
+            <span aria-hidden="true">↓</span>
+            <span class="pill">OCR 识别</span>
+            <span aria-hidden="true">↓</span>
+            <span class="pill">人工复核</span>
+            <span aria-hidden="true">↓</span>
+            <span class="pill">导出</span>
+            <span aria-hidden="true">↓</span>
+            <span class="pill">分享</span>
+          </div>
+          <p>
+            导入文件或图片后，应用在设备本地完成 OCR 识别。用户人工复核识别结果并可手动补充范围，确认后生成脱密结果，再选择导出或分享。
+          </p>
+        </section>
+
+        <section class="content-card">
+          <h2>当前支持识别的敏感信息</h2>
+          <div class="pill-row">
+            <span class="pill">手机号</span>
+            <span class="pill">身份证号</span>
+            <span class="pill">身份证姓名</span>
+            <span class="pill">银行卡号</span>
+            <span class="pill">邮箱</span>
+            <span class="pill">金额</span>
+            <span class="pill">法院案号</span>
+            <span class="pill">劳动仲裁案号</span>
+            <span class="pill">统一社会信用代码</span>
+          </div>
+          <p>自动识别用于辅助定位敏感信息。OCR 识别结果建议人工复核，并根据实际文件补充可能遗漏的内容。</p>
         </section>
 
         <section class="content-card">
           <h2>本地处理说明</h2>
           <ul>
-            <li>文件由用户主动选择。</li>
-            <li>App 在设备本地处理文件。</li>
-            <li>App 不要求登录。</li>
-            <li>App 不上传用户文件到开发者服务器。</li>
-            <li>原文件不会被覆盖。</li>
-            <li>脱敏副本由用户主动导出或分享。</li>
+            <li>文件和图片由用户主动选择。</li>
+            <li>所有 OCR 识别和脱密处理均在设备本地完成。</li>
+            <li>应用不要求登录，不上传用户文件、图片或 PDF。</li>
+            <li>原文件不会被覆盖，脱密结果以新副本形式生成。</li>
+            <li>导出或分享均由用户主动操作。</li>
           </ul>
         </section>
 
         <section class="content-card">
           <h2>已知限制</h2>
           <ul>
-            <li>OCR PDF / 扫描型 PDF 当前仅作为草稿 / 实验能力展示。</li>
-            <li>当前版本不开放 OCR PDF 正式导出。</li>
-            <li>OCR PDF 草稿页不会触发正式分享面板。</li>
-            <li>当前不支持旧 .doc 作为正式支持重点。</li>
-            <li>加密、损坏或特殊结构文件可能无法处理。</li>
-            <li>脱敏结果仍需用户人工复核。</li>
-            <li>App 不承诺识别结果 100% 准确。</li>
+            <li>OCR 识别准确率受原始文件或图片质量影响。</li>
+            <li>手写文字识别能力有限。</li>
+            <li>加密或损坏文件可能无法处理。</li>
+            <li>部分复杂版式建议人工复核。</li>
+            <li>模糊、反光、倾斜或低分辨率内容可能影响识别结果。</li>
+            <li>脱密结果建议再次检查后再对外提供。</li>
           </ul>
         </section>
 
         <section class="mini-grid">
           <article class="content-card">
-            <h3>支持联系方式</h3>
+            <h3>联系支持</h3>
             <div class="contact-block">
               <div class="fact">
                 <strong>支持邮箱</strong>
@@ -101,11 +138,10 @@
           </article>
           <article class="content-card">
             <h3>相关页面</h3>
-            <p>
-              上传前建议将本页作为 Support URL，将隐私政策页作为 Privacy Policy URL。
-            </p>
+            <p>如需了解数据处理和权限说明，请查看隐私政策；其他使用问题可查看常见问题。</p>
             <div class="cta-row">
-              <a class="button button-secondary" href="../privacy/">Open Privacy Policy</a>
+              <a class="button button-secondary" href="../privacy/">查看隐私政策</a>
+              <a class="button button-secondary" href="../faq/">查看常见问题</a>
             </div>
           </article>
         </section>
@@ -115,11 +151,11 @@
     <footer class="footer">
       <div class="site-shell">
         <div class="footer-card">
-          <p>Tmibao Support</p>
+          <p>脱密宝使用支持</p>
           <p>
-            <a href="../">Home</a> ·
-            <a href="../privacy/">Privacy Policy</a> ·
-            <a href="../faq/">FAQ</a>
+            <a href="../">首页</a> ·
+            <a href="../privacy/">隐私政策</a> ·
+            <a href="../faq/">常见问题</a>
           </p>
         </div>
       </div>
