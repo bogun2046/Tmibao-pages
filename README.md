@@ -1,8 +1,8 @@
-# Tmibao GitHub Pages Site
+# 脱密宝 GitHub Pages 网站
 
-This directory contains a minimal static release site for `脱密宝`.
+本目录包含「脱密宝」公开发布版本的官方网站、隐私政策、使用支持与常见问题页面。
 
-## File Structure
+## 目录结构
 
 ```text
 docs/github-pages/
@@ -17,56 +17,19 @@ docs/github-pages/
     index.html
 ```
 
-## Deployment Options
+## 页面用途
 
-### Option 1: Publish from a dedicated public GitHub Pages repository
+- `/`：官方网站首页
+- `/privacy/`：隐私政策
+- `/support/`：使用支持
+- `/faq/`：常见问题
 
-Recommended steps:
+## 发布说明
 
-1. Create a new public repository such as `tmibao-pages`.
-2. Copy the contents of `docs/github-pages/` into the root of that repository.
-3. Push to the `main` branch.
-4. In GitHub repository settings, open `Pages`.
-5. Set the source to:
-   - `Deploy from a branch`
-   - `main`
-   - `/ (root)`
-6. Wait for GitHub Pages to publish the site.
+可将本目录内容部署到 GitHub Pages。发布前应确认产品能力、权限说明、支持邮箱和隐私政策生效日期与公开发布的应用保持一致。
 
-Expected project-site URL:
+## App Store 链接对应关系
 
-- `https://<owner>.github.io/tmibao-pages/`
-
-If you want the shorter URL structure used in the planning document, rename the repository to `tmibao`.
-
-Expected URL structure:
-
-- Home: `https://<owner>.github.io/tmibao/`
-- Privacy Policy: `https://<owner>.github.io/tmibao/privacy/`
-- Support: `https://<owner>.github.io/tmibao/support/`
-- FAQ: `https://<owner>.github.io/tmibao/faq/`
-
-### Option 2: Publish from the `docs/` directory of a public repository
-
-If you place this folder inside a separate public repository, you can also:
-
-1. Move these files to the repository `docs/` directory root, or keep them in the root and deploy from `/`.
-2. In `Pages`, choose:
-   - `Deploy from a branch`
-   - `main`
-   - `/docs`
-
-## Before Publishing
-
-Replace the placeholder fields in the HTML files:
-
-- support email
-- privacy contact email
-- developer / operator name
-- effective date
-
-## App Store Connect Mapping
-
-- `Privacy Policy URL` -> `/privacy/`
-- `Support URL` -> `/support/`
-- `Marketing URL` (optional) -> `/`
+- 隐私政策链接：`/privacy/`
+- 支持链接：`/support/`
+- 营销链接：`/`
