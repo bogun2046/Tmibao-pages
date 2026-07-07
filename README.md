@@ -9,6 +9,14 @@ docs/github-pages/
   index.html
   styles.css
   README.md
+  en/
+    index.html
+    privacy/
+      index.html
+    support/
+      index.html
+    faq/
+      index.html
   privacy/
     index.html
   support/
@@ -23,10 +31,15 @@ docs/github-pages/
 - `/privacy/`：隐私政策
 - `/support/`：使用支持
 - `/faq/`：常见问题
+- `/en/`：英文首页
+- `/en/privacy/`：英文隐私政策
+- `/en/support/`：英文支持页
+- `/en/faq/`：英文常见问题
 
 ## 发布说明
 
 可将本目录内容部署到 GitHub Pages。发布前应确认产品能力、权限说明、支持邮箱和隐私政策生效日期与公开发布的应用保持一致。
+中英文页面应保持产品能力、隐私边界和联系方式语义一致。
 
 ## App Store 链接对应关系
 

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TMiBao FAQ</title>
+    <meta
+      name="description"
+      content="TMiBao FAQ covering local processing, file and image redaction, OCR, manual review, export, and sharing."
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-shell">
+        <div class="topbar">
+          <div class="brand">
+            <div class="brand-mark" aria-hidden="true">T</div>
+            <div class="brand-copy">
+              <strong>TMiBao</strong>
+              <span>FAQ</span>
+            </div>
+          </div>
+          <div class="nav-group">
+            <nav class="nav" aria-label="Primary navigation">
+              <a href="../">Home</a>
+              <a href="../privacy/">Privacy</a>
+              <a href="../support/">Support</a>
+              <a class="active" href="./">FAQ</a>
+            </nav>
+            <div class="lang-switch" aria-label="Language switcher">
+              <a href="../../faq/">中文</a>
+              <a class="active" href="./">EN</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="content-area">
+      <div class="site-shell section-stack">
+        <section class="section-band">
+          <div class="eyebrow">FAQ</div>
+          <h1>Frequently Asked Questions</h1>
+          <p class="lead">
+            This page explains the public release behavior of TMiBao for file and image redaction,
+            on-device processing, OCR, manual review, and exporting.
+          </p>
+        </section>
+
+        <section class="faq-list">
+          <article class="faq-item">
+            <div class="faq-question">Are files uploaded?</div>
+            <div class="faq-answer">
+              No. User-selected files are processed only on the device and are not uploaded to developer servers or other cloud services.
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <div class="faq-question">Does it support image redaction?</div>
+            <div class="faq-answer">
+              Yes. JPG, PNG, and HEIC images are supported. OCR can help locate sensitive content, and the redaction area can be confirmed by manual review or manual box selection. The redacted result can then be exported or shared.
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <div class="faq-question">Can OCR-based results be exported formally?</div>
+            <div class="faq-answer">
+              Yes. PDFs and images can be exported after OCR recognition and manual review, and they can also be shared through the system share sheet.
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <div class="faq-question">Which file types are supported?</div>
+            <div class="faq-answer">
+              PDF, DOCX, TXT, plus JPG, PNG, and HEIC images are supported. PDFs include both text-layer PDFs and scanned or image-based PDFs that require OCR.
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <div class="faq-question">How accurate is OCR?</div>
+            <div class="faq-answer">
+              OCR accuracy depends on clarity, resolution, layout, skew, glare, and text type in the original file or image. The app does not guarantee 100% accuracy.
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <div class="faq-question">Why is manual review recommended?</div>
+            <div class="faq-answer">
+              OCR may miss content or misrecognize text. Complex layouts and handwriting can also affect results. Manual review helps confirm the redaction scope and lets users add missing areas with box selection.
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <div class="faq-question">Is sign-in required?</div>
+            <div class="faq-answer">
+              No. The app does not require account registration and does not include a sign-in flow.
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <div class="faq-question">Does it upload anything to a server?</div>
+            <div class="faq-answer">
+              No. All OCR and redaction processing happens on the device. No cloud OCR, cloud storage, or cloud sync is used.
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <div class="faq-question">Will the original file be overwritten?</div>
+            <div class="faq-answer">
+              No. The redacted result is generated as a new copy and the original file remains unchanged.
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <div class="faq-question">What permissions are needed for image redaction?</div>
+            <div class="faq-answer">
+              The photo picker is used when selecting from the system photo library. Camera permission is requested only when the user actively chooses to take a photo. Images are always processed on the device.
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="site-shell">
+        <div class="footer-card">
+          <p>TMiBao FAQ</p>
+          <p class="footer-links">
+            <a href="../">Home</a> ·
+            <a href="../privacy/">Privacy</a> ·
+            <a href="../support/">Support</a> ·
+            <a href="../../faq/">中文</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
